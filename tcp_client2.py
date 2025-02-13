@@ -1,7 +1,7 @@
 from socket import *
 
 # Using the Wi-Fi IP address to connect to the server
-serverName = '10.246.128.212'  # Server's IP address (Wi-Fi address)
+serverName = '10.246.143.176'  # Server's IP address (Wi-Fi address)
 serverPort = 12000  # Port the server is listening on
 
 # Create a client socket
