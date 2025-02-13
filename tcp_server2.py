@@ -16,7 +16,7 @@ def process_string(user_input, options):
 
 serverPort = 12000
 serverSocket = socket(AF_INET, SOCK_STREAM)
-serverSocket.bind(('', serverPort))
+serverSocket.bind(('10.246.143.176', serverPort))
 serverSocket.listen(1)
 print("The server is ready to receive")
 
